@@ -9,7 +9,7 @@ pipeline {
     }
     stage('Run Tests') {
       steps {
-        sh 'clean test'
+        sh 'clean install'
       }
     }
   }
